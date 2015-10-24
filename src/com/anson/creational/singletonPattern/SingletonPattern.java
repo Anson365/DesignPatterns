@@ -1,4 +1,4 @@
-package com.anson.creational.singletonPattern.singleton;
+package com.anson.creational.singletonPattern;
 
 /**
  * µ¥ÀýÄ£Ê½

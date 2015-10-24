@@ -1,4 +1,4 @@
-package com.anson.creational.factoryPattern.extern;
+package com.anson.extern;
 
 public class LetterC implements Letter {
 

@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import com.anson.creational.factoryPattern.abstractFactory.LetterBFactory;
 import com.anson.creational.factoryPattern.abstractFactory.LetterFactory;
-import com.anson.creational.factoryPattern.extern.Letter;
 import com.anson.creational.factoryPattern.factoryMethod.LetterFactoryMethod;
 import com.anson.creational.factoryPattern.simpleFactory.SimpleFactory;
+import com.anson.extern.Letter;
 
 public class TestFactoryPatterns {
 	@Test

@@ -1,7 +1,7 @@
 package com.anson.creational.factoryPattern.abstractFactory;
 
-import com.anson.creational.factoryPattern.extern.Letter;
-import com.anson.creational.factoryPattern.extern.LetterB;
+import com.anson.extern.Letter;
+import com.anson.extern.LetterB;
 
 public class LetterBFactory implements LetterFactory {
 

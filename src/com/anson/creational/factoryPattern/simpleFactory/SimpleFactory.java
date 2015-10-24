@@ -1,9 +1,9 @@
 package com.anson.creational.factoryPattern.simpleFactory;
 
-import com.anson.creational.factoryPattern.extern.Letter;
-import com.anson.creational.factoryPattern.extern.LetterA;
-import com.anson.creational.factoryPattern.extern.LetterB;
-import com.anson.creational.factoryPattern.extern.LetterC;
+import com.anson.extern.Letter;
+import com.anson.extern.LetterA;
+import com.anson.extern.LetterB;
+import com.anson.extern.LetterC;
 
 /**
  * 简单工厂模式 特点：直接返回需要的对象，一个工厂加载各类对象

@@ -1,6 +1,6 @@
 package com.anson.creational.factoryPattern.abstractFactory;
 
-import com.anson.creational.factoryPattern.extern.Letter;
+import com.anson.extern.Letter;
 
 /**
  * 抽象工厂模式：为每个类，设置一个工厂
