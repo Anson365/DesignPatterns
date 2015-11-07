@@ -1,4 +1,4 @@
-package com.anson.test.structural.observerPattern;
+package com.anson.test.behavioral.observerPattern;
 
 import org.junit.Test;
 
