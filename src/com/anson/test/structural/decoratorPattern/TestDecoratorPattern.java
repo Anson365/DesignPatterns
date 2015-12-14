@@ -2,10 +2,10 @@ package com.anson.test.structural.decoratorPattern;
 
 import org.junit.Test;
 
-import com.anson.creational.decoratorPattern.Meat;
-import com.anson.creational.decoratorPattern.Noodle;
-import com.anson.creational.decoratorPattern.NoodleDecorator;
-import com.anson.creational.decoratorPattern.Tomato;
+import com.anson.structural.decoratorPattern.Meat;
+import com.anson.structural.decoratorPattern.Noodle;
+import com.anson.structural.decoratorPattern.NoodleDecorator;
+import com.anson.structural.decoratorPattern.Tomato;
 
 public class TestDecoratorPattern {
 	@Test

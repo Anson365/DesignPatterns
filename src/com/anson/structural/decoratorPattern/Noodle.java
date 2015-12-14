@@ -1,4 +1,4 @@
-package com.anson.creational.decoratorPattern;
+package com.anson.structural.decoratorPattern;
 
 public class Noodle extends NoodleDecorator {
 	private NoodleDecorator decorator;

@@ -1,9 +1,9 @@
-package com.anson.creational.decoratorPattern;
+package com.anson.structural.decoratorPattern;
 
-public class Tomato extends NoodleDecorator{
+public class Meat extends NoodleDecorator {
 	private NoodleDecorator decorator;
 
-	public Tomato(NoodleDecorator decorator) {
+	public Meat(NoodleDecorator decorator) {
 		super();
 		this.decorator = decorator;
 	}
@@ -19,13 +19,14 @@ public class Tomato extends NoodleDecorator{
 	@Override
 	public float cost() {
 		// TODO Auto-generated method stub		
-		return  decorator.cost() + 2.0f;
+		return  decorator.cost() + 3.0f;
 	}
 
 	@Override
 	public void describe() {
 		// TODO Auto-generated method stub
 		this.decorator.describe();
-		System.out.println("西红柿少许");
+		System.out.println("肉少许");
 	}
+
 }
